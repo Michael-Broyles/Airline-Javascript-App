@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Continental Airlines - Seat Selector</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/master.css">
+	<link rel="stylesheet" type="text/css" href="../css/airline.css">
+	<script src="../js/user_picks.js"></script>
+	<script src="../js/tools.js"></script>
+</head>
+<body>
+	
+	<h1 id="seat_heading">Continental Airlines - Seat Selector</h1>
+	
+	<input type="button" id="home_button" class="buttons" value="Back To Home" onclick="buttons.back_home()">
+	<input type="button" id="proceed_button" class="buttons" value="Proceed To Checkout" onclick="buttons.check_out()">
+	
+	<div id="gold_box" class="box"></div>
+	<div id="silver_box" class="box"></div>
+	<div id="green_box" class="box"></div>
+	
+    	
+	<div id="legend_holder">
+		<h1 id="first_legend" class="legend">First Class</h1>
+		<h1 id="second_legend" class="legend">Buisness Class</h1>
+		<h1 id="third_legend" class="legend">Economy Class</h1>
+	</div>
+	
+	<div id="seat_holder">
+		<div id="seat_1" class="first_class" onmouseover="info_1()" onmouseleave="dis_none()" onclick="buttons.check_out()">1</div>
+		<div id="seat_2" class="first_class" onmouseover="info_2()" onmouseleave="dis_none()" onclick="buttons.check_out()">2</div>
+		<div id="seat_3" class="first_class" onmouseover="info_3()" onmouseleave="dis_none()" onclick="buttons.check_out()">3</div>
+		<div id="seat_4" class="first_class" onmouseover="info_4()" onmouseleave="dis_none()" onclick="buttons.check_out()">4</div>
+		<div id="seat_5" class="first_class" onmouseover="info_5()" onmouseleave="dis_none()" onclick="buttons.check_out()">5</div>
+		<div id="seat_6" class="first_class" onmouseover="info_6()" onmouseleave="dis_none()" onclick="buttons.check_out()">6</div>
+		<div id="seat_7" class="first_class" onmouseover="info_7()" onmouseleave="dis_none()" onclick="buttons.check_out()">7</div>
+		<div id="seat_8" class="first_class" onmouseover="info_8()" onmouseleave="dis_none()" onclick="buttons.check_out()">8</div>
+		<div id="seat_9" class="first_class" onmouseover="info_9()" onmouseleave="dis_none()" onclick="buttons.check_out()">9</div>
+		<div id="seat_10" class="first_class" onmouseover="info_10()" onmouseleave="dis_none()" onclick="buttons.no_check_out()">10</div>
+		<div id="seat_11" class="first_class" onmouseover="info_11()" onmouseleave="dis_none()" onclick="buttons.check_out()">11</div>
+		<div id="seat_12" class="first_class" onmouseover="info_12()" onmouseleave="dis_none()" onclick="buttons.check_out()">12</div>
+		
+		<div id="seat_13" class="second_class" onmouseover="info_13()" onmouseleave="dis_none()" onclick="buttons.check_out()">13</div>
+		<div id="seat_14" class="second_class" onmouseover="info_14()" onmouseleave="dis_none()" onclick="buttons.check_out()">14</div>
+		<div id="seat_15" class="second_class" onmouseover="info_15()" onmouseleave="dis_none()" onclick="buttons.check_out()">15</div>
+		<div id="seat_16" class="second_class" onmouseover="info_16()" onmouseleave="dis_none()" onclick="buttons.check_out()">16</div>
+		<div id="seat_17" class="second_class" onmouseover="info_17()" onmouseleave="dis_none()" onclick="buttons.check_out()">17</div>
+		<div id="seat_18" class="second_class" onmouseover="info_18()" onmouseleave="dis_none()" onclick="buttons.check_out()">18</div>
+		<div id="seat_19" class="second_class" onmouseover="info_19()" onmouseleave="dis_none()" onclick="buttons.check_out()">19</div>
+		<div id="seat_20" class="second_class" onmouseover="info_20()" onmouseleave="dis_none()" onclick="buttons.no_check_out()">20</div>
+		<div id="seat_21" class="second_class" onmouseover="info_21()" onmouseleave="dis_none()" onclick="buttons.check_out()">21</div>
+		<div id="seat_22" class="second_class" onmouseover="info_22()" onmouseleave="dis_none()" onclick="buttons.check_out()">22</div>
+		<div id="seat_23" class="second_class" onmouseover="info_23()" onmouseleave="dis_none()" onclick="buttons.check_out()">23</div>
+		<div id="seat_24" class="second_class" onmouseover="info_24()" onmouseleave="dis_none()" onclick="buttons.check_out()">24</div>
+		
+		<div id="seat_25" class="third_class" onmouseover="info_25()" onmouseleave="dis_none()" onclick="buttons.check_out()">25</div>
+		<div id="seat_26" class="third_class" onmouseover="info_26()" onmouseleave="dis_none()" onclick="buttons.check_out()">26</div>
+		<div id="seat_27" class="third_class" onmouseover="info_27()" onmouseleave="dis_none()" onclick="buttons.check_out()">27</div>
+		<div id="seat_28" class="third_class" onmouseover="info_28()" onmouseleave="dis_none()" onclick="buttons.check_out()">28</div>
+		<div id="seat_29" class="third_class" onmouseover="info_29()" onmouseleave="dis_none()" onclick="buttons.check_out()">29</div>
+		<div id="seat_30" class="third_class" onmouseover="info_30()" onmouseleave="dis_none()" onclick="buttons.no_check_out()">30</div>
+		<div id="seat_31" class="third_class" onmouseover="info_31()" onmouseleave="dis_none()" onclick="buttons.check_out()">31</div>
+		<div id="seat_32" class="third_class" onmouseover="info_32()" onmouseleave="dis_none()" onclick="buttons.check_out()">32</div>
+		<div id="seat_33" class="third_class" onmouseover="info_33()" onmouseleave="dis_none()" onclick="buttons.check_out()">33</div>
+		<div id="seat_34" class="third_class" onmouseover="info_34()" onmouseleave="dis_none()" onclick="buttons.check_out()">34</div>
+		<div id="seat_35" class="third_class" onmouseover="info_35()" onmouseleave="dis_none()" onclick="buttons.check_out()">35</div>
+		<div id="seat_36" class="third_class" onmouseover="info_36()" onmouseleave="dis_none()" onclick="buttons.check_out()">36</div>
+		<div id="seat_37" class="third_class" onmouseover="info_37()" onmouseleave="dis_none()" onclick="buttons.check_out()">37</div>
+		<div id="seat_38" class="third_class" onmouseover="info_38()" onmouseleave="dis_none()" onclick="buttons.check_out()">38</div>
+		<div id="seat_39" class="third_class" onmouseover="info_39()" onmouseleave="dis_none()" onclick="buttons.check_out()">39</div>
+		<div id="seat_40" class="third_class" onmouseover="info_40()" onmouseleave="dis_none()" onclick="buttons.no_check_out()">40</div>
+	</div>
+	
+	<select id="class_select_list" onchange="pop_seats_by_class()">
+		<option value="">Select Flight Class</option>
+		<option value="first_class">First Class</option>
+		<option value="buisness_class">Buisness Class</option>
+		<option value="economy_class">Economy Class</option>
+		<option ></option>
+	</select><br/>
+	
+	<select id="first_class_seat_select_list" class="seat_select_list" onchange="first_class_seat_info()">
+		<option value="">Select First Class Seat</option>
+		<option value="s1">Seat 1</option>
+		<option value="s2">Seat 2</option>
+		<option value="s3">Seat 3</option>
+		<option value="s4">Seat 4</option>
+		<option value="s5">Seat 5</option>
+		<option value="s6">Seat 6</option>
+		<option value="s7">Seat 7</option>
+		<option value="s8">Seat 8</option>
+		<option value="s9">Seat 9</option>
+		<option value="s10">Seat 10</option>
+		<option value="s11">Seat 11</option>
+		<option value="s12">Seat 12</option>
+	</select><br/>
+	
+	<select id="buisness_class_seat_select_list" class="seat_select_list" onchange="buisness_class_seat_info()">
+		<option value="">Select Buisness Class Seat</option>
+		<option value="s13">Seat 13</option>
+		<option value="s14">Seat 14</option>
+		<option value="s15">Seat 15</option>
+		<option value="s16">Seat 16</option>
+		<option value="s17">Seat 17</option>
+		<option value="s18">Seat 18</option>
+		<option value="s19">Seat 19</option>
+		<option value="s20">Seat 20</option>
+		<option value="s21">Seat 21</option>
+		<option value="s22">Seat 22</option>
+		<option value="s23">Seat 23</option>
+		<option value="s24">Seat 24</option>
+	</select><br/>
+	
+	<select id="economy_class_seat_select_list" class="seat_select_list" onchange="economy_class_seat_info()">
+		<option value="">Select Economy Class Seat</option>
+		<option value="s25">Seat 25</option>
+		<option value="s26">Seat 26</option>
+		<option value="s27">Seat 27</option>
+		<option value="s28">Seat 28</option>
+		<option value="s29">Seat 29</option>
+		<option value="s30">Seat 30</option>
+		<option value="s31">Seat 31</option>
+		<option value="s32">Seat 32</option>
+		<option value="s33">Seat 33</option>
+		<option value="s34">Seat 34</option>
+		<option value="s35">Seat 35</option>
+		<option value="s36">Seat 36</option>
+		<option value="s37">Seat 37</option>
+		<option value="s38">Seat 38</option>
+		<option value="s39">Seat 39</option>
+		<option value="s40">Seat 40</option>
+	</select><br/>
+	
+	<div id="display"></div>
+	
+</body>
+	<script src="../js/airline.js"></script>
+</html>

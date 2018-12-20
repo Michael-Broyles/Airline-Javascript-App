@@ -1,0 +1,483 @@
+/*------------------------------------------------------------------MEDIA-QUERRY-LAPTOP---------------------------------------------*/
+@media screen and (min-width: 1350px) {
+
+#body {
+	background-color: grey;
+}
+
+#ticket_marquee {
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: lightgray;
+	font-style: oblique;
+	background: linear-gradient(90deg, aqua, white);
+	background-size: 400% 400%;
+	animation: marqueeGradient 30s ease infinite;
+	width: 54%;
+	height: 30px;
+	padding-top: 5px;
+	border-radius: 5px 5px 5px 5px;
+	font-style: bolder;
+	font-weight: 600;
+}
+
+@keyframes marqueeGradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+}
+
+#personal_data_form {
+	background-color: aqua;
+	margin: auto;
+	padding: auto;
+	padding: 50px;
+	padding-left: 190px;
+	padding-bottom: 20px;
+	min-height: 590px;
+	width: 40%;
+	text-align: left;
+	border-radius: 10px 10px 10px 10px;
+	font-family: broadway;
+	font-size: 20px;
+}
+/*----------------------------INFO-FORM-PAGE-FIELDSETS--------------------------------------------------------------------*/
+#contact_info_fieldset {
+	margin-bottom: 10px;
+	width: 370px;
+}
+
+#user_address_fieldset {
+	width: 320px;
+	align-content: center;
+	margin-bottom: 10px;
+}
+
+#payment_type_fieldset {
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+#echeck_info_fieldset {
+	display: none;
+	margin-bottom: 10px;
+	width: 400px;
+}
+
+#credit_card_info_fieldset {
+	display: none;
+	margin-bottom: 10px;
+	width: 420px;
+}
+
+/*----------------------------INFO-FORM-PAGE-RADIO-BUTTONS--------------------------------------------------------------*/
+#check {
+	margin-left: 10px;
+	cursor: pointer;
+	color: aqua;
+}
+
+#card {
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+/*----------------------------INFO-FORM-PAGE-BUTTONS--------------------------------------------------------------------*/
+#submit_button {
+	margin: auto;
+	margin-left: 24%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#back_home {
+	margin-top: 6px;
+}
+/*----------------------------INFO-FORM-PAGE-CLASSES--------------------------------------------------------------------*/
+.form_fields {
+	margin: auto;
+	margin: 10px;
+	margin-right: 20px;
+}
+.form_fields:hover {
+	background-color: lightblue;
+}
+fieldset {
+	border-color: black;
+}
+/*----------------------------INFO-FORM-PAGE-INPUT-FIELDS---------------------------------------------------------------*/
+#email_field {
+	width: 216px;
+}
+
+#select_state_list {
+	width: 210px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+#street_field {
+	width: 200px;
+}
+
+#city_field {
+	width: 220px;
+}
+
+#zipcode_field {
+	width: 176px;
+}
+
+#bank_name_field {
+	width: 290px;
+}
+
+#select_cc_list {
+	width: 230px;
+	margin-left: 12px;
+}
+
+#card_number_field {
+	width: 190px;
+}
+
+#expiration_date_field {
+	cursor: pointer;
+}
+
+}
+/*-----------------------------------------------------------MEDIA-QUERRY-TABLET-----------------------------------------------*/
+
+@media screen and (max-width: 1349px) and (min-width: 501px) {
+	
+	#body {
+	background-color: grey;
+}
+
+#ticket_marquee {
+	font-family: sans-serif;
+	font-size: 20px;
+	background-color: lightgray;
+	font-style: oblique;
+	background: linear-gradient(90deg, aqua, white);
+	background-size: 400% 400%;
+	animation: marqueeGradient 30s ease infinite;
+	width: 54%;
+	height: 30px;
+	padding-top: 5px;
+	border-radius: 5px 5px 5px 5px;
+	font-style: bolder;
+	font-weight: 600;
+}
+
+@keyframes marqueeGradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+}
+
+#personal_data_form {
+	background-color: aqua;
+	margin: auto;
+	padding: auto;
+	padding: 20px;
+	padding-left: 20px;
+	padding-bottom: 20px;
+	min-height: 590px;
+	width: 400px;
+	text-align: left;
+	border-radius: 10px 10px 10px 10px;
+	font-family: broadway;
+	font-size: 20px;
+}
+/*----------------------------INFO-FORM-PAGE-FIELDSETS--------------------------------------------------------------------*/
+#contact_info_fieldset {
+	margin-bottom: 10px;
+	width: 330px;
+}
+
+#user_address_fieldset {
+	width: 320px;
+	align-content: center;
+	margin-bottom: 10px;
+}
+
+#payment_type_fieldset {
+	width: 200px;
+	margin-bottom: 10px;
+}
+
+#echeck_info_fieldset {
+	display: none;
+	margin-bottom: 10px;
+	width: 400px;
+}
+
+#credit_card_info_fieldset {
+	display: none;
+	margin-bottom: 10px;
+	width: 420px;
+}
+
+/*----------------------------INFO-FORM-PAGE-RADIO-BUTTONS--------------------------------------------------------------*/
+#check {
+	margin-left: 10px;
+	cursor: pointer;
+	color: aqua;
+}
+
+#card {
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+/*----------------------------INFO-FORM-PAGE-BUTTONS--------------------------------------------------------------------*/
+#submit_button {
+	margin: auto;
+	margin-left: 24%;
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+
+#back_home {
+	margin-top: 6px;
+}
+/*----------------------------INFO-FORM-PAGE-CLASSES--------------------------------------------------------------------*/
+.form_fields {
+	margin: auto;
+	margin: 10px;
+	margin-right: 20px;
+}
+.form_fields:hover {
+	background-color: lightblue;
+}
+fieldset {
+	border-color: black;
+}
+/*----------------------------INFO-FORM-PAGE-INPUT-FIELDS---------------------------------------------------------------*/
+#email_field {
+	width: 216px;
+}
+
+#select_state_list {
+	width: 210px;
+	margin-left: 10px;
+	cursor: pointer;
+}
+
+#street_field {
+	width: 200px;
+}
+
+#city_field {
+	width: 220px;
+}
+
+#zipcode_field {
+	width: 176px;
+}
+
+#bank_name_field {
+	width: 290px;
+}
+
+#select_cc_list {
+	width: 230px;
+	margin-left: 12px;
+}
+
+#card_number_field {
+	width: 190px;
+}
+
+#expiration_date_field {
+	cursor: pointer;
+}
+	
+}
+
+@media screen and (max-width: 500px) and (min-width: 369px) {
+	
+	body {
+		background-color: lightcyan;
+	}
+	
+	#ticket_marquee {
+	font-family: sans-serif;
+	font-size: 18px;
+	background-color: lightgray;
+	font-style: oblique;
+	background: linear-gradient(90deg, aqua, white);
+	background-size: 400% 400%;
+	animation: marqueeGradient 30s ease infinite;
+	width: 85%;
+	height: 28px;
+	padding-top: 8px;
+	border-radius: 5px 5px 5px 5px;
+	font-style: bolder;
+	font-weight: 600;
+	}
+
+	@keyframes marqueeGradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+	}
+	
+	#email_field {
+	width: 173px;
+	}
+	
+	#f_name_field {
+	width: 140px;
+	}
+	
+	#l_name_field {
+	width: 142px;
+	}
+	
+	#phone_field {
+	width: 145px;
+	}
+	
+	#street_field {
+	width: 170px;
+	}
+
+	#city_field {
+	width: 180px;
+	}
+	
+	#select_state_list {
+	width: 170px;
+	margin-left: 10px;
+	cursor: pointer;
+	}
+	
+	#zipcode_field {
+	width: 155px;
+	}
+	
+	#echeck_info_fieldset {
+	display: none;
+	margin-bottom: 10px;
+	width: 200px;
+	}
+
+	#credit_card_info_fieldset {
+	display: none;
+	margin-bottom: 10px;
+	width: 200px;
+	}
+	
+	#bank_name_field {
+	width: 140px;
+	}
+	
+	#routing_number_field {
+	width: 100px;
+	}
+	
+	#account_number_field {
+	width: 100px;
+	}
+	
+	fieldset {
+	background-color: lightgray;
+	}
+}
+
+@media screen and (max-width: 368px) and (min-width: 260px) {
+	
+	body {
+		background-color: lightcyan;
+	}
+	
+	#ticket_marquee {
+	font-family: sans-serif;
+	font-size: 18px;
+	background-color: lightgray;
+	font-style: oblique;
+	background: linear-gradient(90deg, aqua, white);
+	background-size: 400% 400%;
+	animation: marqueeGradient 30s ease infinite;
+	width: 85%;
+	height: 28px;
+	padding-top: 8px;
+	border-radius: 5px 5px 5px 5px;
+	font-style: bolder;
+	font-weight: 600;
+	}
+
+	@keyframes marqueeGradient {
+	0% {background-position: 0% 50%;}
+	50% {background-position: 100% 50%;}
+	100% {background-position: 0% 50%;}
+	}
+	
+	#email_field {
+	width: 173px;
+	}
+	
+	#f_name_field {
+	width: 140px;
+	}
+	
+	#l_name_field {
+	width: 142px;
+	}
+	
+	#phone_field {
+	width: 145px;
+	}
+	
+	#street_field {
+	width: 170px;
+	}
+
+	#city_field {
+	width: 180px;
+	}
+	
+	#select_state_list {
+	width: 170px;
+	margin-left: 10px;
+	cursor: pointer;
+	}
+	
+	#zipcode_field {
+	width: 155px;
+	}
+	
+	#echeck_info_fieldset {
+	display: none;
+	margin-bottom: 10px;
+	width: 200px;
+	}
+
+	#credit_card_info_fieldset {
+	display: none;
+	margin-bottom: 10px;
+	width: 200px;
+	}
+	
+	#bank_name_field {
+	width: 140px;
+	}
+	
+	#routing_number_field {
+	width: 100px;
+	}
+	
+	#account_number_field {
+	width: 100px;
+	}
+	
+	fieldset {
+	background-color: lightgray;
+	}
+}
+
+
+
+

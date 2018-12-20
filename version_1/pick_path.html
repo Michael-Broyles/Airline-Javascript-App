@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<!------------------------------------------------------------------------------------------------------------------------------->
+<head>
+    <title>Continental Airlines - Flight Picker</title>
+    <meta charset="utf-8">
+	<link id="page_style" rel="stylesheet" type="text/css" href="css/master.css">
+	<link rel="stylesheet" type="text/css" href="css/pick_path.css">
+	<script src="js/pick_path.js"></script>
+	<script src="js/tools.js"></script>
+</head>
+<body>
+	
+	<h1>Continental Airlines</h1>
+	
+	<img src="images/plane.jpeg" id="plane_img">
+	
+    <h2>Choose Your Flight Path</h2>
+	<h3 id="clock"></h3>
+	
+	<span id="loca">FROM:</span>
+	<span id="dest">TO:</span>
+	
+	Choose A From Location:
+	<select id="select_loc" onchange="pop_all()">
+		<option value=""></option>
+		<option value="jax">Jacksonville</option>
+		<option value="atlanta">Atlanta</option>
+		<option value="new_york">New York</option>
+		<option value="nash">Nashville</option>
+	</select>
+	
+	Choose A Destination:
+	<select id="select_dest" onchange="pop_all()">
+		<option value=""></option>
+		<option value="jax">Jacksonville</option>
+		<option value="atlanta">Atlanta</option>
+		<option value="new_york">New York</option>
+		<option value="nash">Nashville</option>
+	</select>
+    
+	<br/>
+	<input type="button" id="pick_seat_button" class="buttons" value="View Seats" onclick="buttons.pick_seat()">
+	
+	
+	
+	
+	
+<script>tools.clock();</script>
+</body>
+</html>

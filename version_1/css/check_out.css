@@ -1,0 +1,112 @@
+/*------MEDIA-QUERRY-MIN-1350px---------------MEDIA-QUERRY----------------------------*/
+@media screen and (min-width: 1350px) {
+	
+
+body {
+	background-image: url(../images/pexels-photo-358319.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	
+}
+
+#ticket_preview {
+	text-align: center;
+	padding-top: 20px;
+	padding-left: 20px;
+	margin: auto;
+	height: 460px;
+	width: 600px;
+	background-color: bisque;
+	font-family: Verdana;
+	font-size: 18px;
+	border: 2px solid black;
+	border-radius: 5px 5px 5px 5px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.buttons {
+	margin: auto;
+	margin: 12px;
+}
+
+#title {
+	font-family: broadway;
+	font-size: 20px;
+	margin-bottom: -15px;
+}
+
+}
+
+/*--------MEDIA-QUERRY-BIG-TABLET-------------------------------------------------*/
+@media screen and (max-width: 1349px) and (min-width: 901px) {
+	
+}
+
+/*------------MEDIA-QUERRY-TABLET-------------------------------------------------*/
+@media screen and (max-width: 900px) and (min-width: 650px) {
+	
+}
+
+/*------MEDIA-QUERRY-SMALL-TABLET-------------------------------------------------*/
+@media screen and (max-width: 650px) and (min-width: 560px) {
+	
+}
+
+/*---------MEDIA-QUERRY-BIG-PHONE-------------------------------------------------*/
+@media screen and (max-width: 625px) and (min-width: 369px) {
+	
+}
+
+/*-----MEDIA-QUERRY-AVERAGE-PHONE-------------------------------------------------*/
+@media screen and (max-width: 368px) and (min-width: 260px) {
+
+#ck_out_heading {
+	height: 40px;
+	width: 90%;
+	margin: 10px;
+}
+	
+.buttons {
+	height: 22px;
+	padding-top: 2px;
+}
+
+#ticket_preview {
+	position: absolute;
+	top: 160px;
+	text-align: center;
+	padding: 10px;
+	margin: auto;
+	margin-left: 12px;
+	height: 356px;
+	width: 200px;
+	background-color: bisque;
+	font-family: Verdana;
+	font-size: 12px;
+	border: 2px solid black;
+	border-radius: 5px 5px 5px 5px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+#print_button {
+	position: absolute;
+	bottom: 0px;
+	left: 30%;
+}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

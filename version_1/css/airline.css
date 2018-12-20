@@ -1,0 +1,620 @@
+
+/*------MEDIA-QUERRY-MIN-1350px-----------------------------------------------------------------------MEDIA-QUERRY----------------------------*/
+@media screen and (min-width: 1350px) {
+#seat_heading {
+	position: absolute;
+	top: -5px;
+	width: 98%;
+	height: 100px;
+	padding-top: 30px;
+}
+
+#home_button {
+	position: absolute;
+	top: 60px;
+	right: 140px;
+}
+	
+	#proceed_button {
+		display: none;
+	}
+/*--------------------------------------------LEGEND-----------------------------------*/
+#legend_holder {
+	position: absolute;
+	top: 0px;
+	left: 5px;
+	height: 209px;
+	width: 300px;
+	background-color: transparent;
+}
+.legend {
+	position: absolute;
+	text-align: center;
+	height: 45px;
+	width: 300px;
+	border-radius: 20px;
+	padding-top: 4px;
+	left: 18px;
+	border: 2px solid black;
+	cursor: pointer;
+}
+
+#first_legend {
+	top: 0px;
+	background-color: lightgray;
+	color: black;
+}
+#second_legend {
+	top: 64px;
+	background-color: lightgray;
+	color: black;
+}
+#third_legend {
+	top: 128px;
+	background-color: lightgray;
+	color: black;
+}
+/*-----------------------------------------------------SEATS------------------------------*/
+.first_class {
+	text-align: center;
+	position: absolute;
+	border: 2px solid red;
+	background-color: gold;
+	height: 12px;
+	width: 12px;
+	border-radius: 4px;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+#first_legend:hover {
+	background-color: gold;	
+}
+	
+#second_legend:hover {
+	background-color: red;	
+}
+
+#third_legend:hover {
+	background-color: lawngreen;	
+}
+	
+.second_class {
+	text-align: center;
+	position: absolute;
+	border: 2px solid red;
+	background-color: silver;
+	height: 12px;
+	width: 12px;
+	border-radius: 4px;
+	font-size: 10px;
+	cursor: pointer;
+}
+.third_class {
+	text-align: center;
+	position: absolute;
+	border: 2px solid red;
+	background-color: lawngreen;
+	height: 12px;
+	width: 12px;
+	border-radius: 4px;
+	font-size: 10px;
+	cursor: pointer;
+}
+
+#seat_holder {
+	margin-top: 20px;
+	background-image: url(../images/chart.png);
+	height: 650px;
+	width: 90%;
+	background-repeat: no-repeat;
+    background-size: 1220px 500px;
+}
+
+/*--------------------------------------FIRST_CLASS---------------------------------------------*/
+#seat_1 {
+	top: 239px;
+	left: 230px;
+}
+#seat_2 {
+	top: 239px;
+	left: 258px;
+}
+#seat_3 {
+	top: 239px;
+	left: 285px;
+}
+#seat_4 {
+	top: 259px;
+	left: 230px;
+}
+#seat_5 {
+	top: 259px;
+	left: 258px;
+}
+#seat_6 {
+	top: 259px;
+	left: 285px;
+}
+#seat_7 {
+	top: 357px;
+	left: 230px;
+}
+#seat_8 {
+	top: 357px;
+	left: 258px;
+}
+#seat_9 {
+	top: 357px;
+	left: 285px;
+}
+#seat_10 {
+	top: 376px;
+	left: 230px;
+}
+#seat_11 {
+	top: 376px;
+	left: 258px;
+}
+#seat_12 {
+	top: 376px;
+	left: 285px;
+}
+/*--------------------------------------SECOND_CLASS------------------------------------------------------*/
+#seat_13 {
+	top: 331px;
+	left: 502px;
+}
+#seat_14 {
+	top: 315px;
+	left: 502px;
+}
+#seat_15 {
+	top: 298px;
+	left: 502px;
+}
+#seat_16 {
+	top: 282px;
+	left: 502px;
+}
+#seat_17 {
+	top: 331px;
+	left: 548px;
+}
+#seat_18 {
+	top: 315px;
+	left: 548px;
+}
+#seat_19 {
+	top: 298px;
+	left: 548px;
+}
+#seat_20 {
+	top: 282px;
+	left: 548px;
+}
+#seat_21 {
+	top: 331px;
+	left: 594px;
+}
+#seat_22 {
+	top: 315px;
+	left: 594px;
+}
+#seat_23 {
+	top: 300px;
+	left: 594px;
+}
+#seat_24 {
+	top: 282px;
+	left: 594px;
+}
+/*--------------------------------------THIRD_CLASS------------------------------------------------------*/
+#seat_25 {
+	top: 331px;
+	left: 861px;
+}
+#seat_26 {
+	top: 316px;
+	left: 861px;
+}
+#seat_27 {
+	top: 299px;
+	left: 861px;
+}
+#seat_28 {
+	top: 282px;
+	left: 861px;
+}
+#seat_29 {
+	top: 331px;
+	left: 908px;
+}
+#seat_30 {
+	top: 316px;
+	left: 908px;
+}
+#seat_31 {
+	top: 299px;
+	left: 908px;
+}
+#seat_32 {
+	top: 282px;
+	left: 908px;
+}
+#seat_33 {
+	top: 331px;
+	left: 956px;
+}
+#seat_34 {
+	top: 316px;
+	left: 956px;
+}
+#seat_35 {
+	top: 299px;
+	left: 956px;
+}
+#seat_36 {
+	top: 282px;
+	left: 956px;
+}
+#seat_37 {
+	top: 331px;
+	left: 980px;
+}
+#seat_38 {
+	top: 316px;
+	left: 980px;
+}
+#seat_39 {
+	top: 300px;
+	left: 980px;
+}
+#seat_40 {
+	top: 282px;
+	left: 980px;
+}
+
+.box {
+	position: absolute;
+	background-color: transparent;
+	height: 188px;
+	width: 180px;
+}
+
+#gold_box {
+	top: 220px;
+	left: 170px;
+}
+
+#silver_box {
+	top: 220px;
+	left: 450px;
+}
+
+#green_box {
+	top: 220px;
+	left: 820px;
+}
+
+#display {
+	position: absolute;
+	top: 450px;
+	left: 28%;
+	height: 30%;
+	width: 500px;
+	border: 2px solid red;
+	background-color: transparent;
+	color: black;
+	text-align: center;
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	overflow-y: hidden;
+}
+
+#class_select_list {
+	display: none;
+}
+	
+.seat_select_list {
+	display: none;
+	}
+	
+}
+
+/*--------MEDIA-QUERRY-BIG-TABLET----------------------------------------------------------------------------------MEDIA-QUERRY---------------*/
+@media screen and (max-width: 1349px) and (min-width: 901px) {
+body {
+	background-image: url(../images/Airbus_A300B4-622R_seat_configuration_chart.svg.png);
+	background-repeat: repeat;
+	background-size: 200px;
+	}
+	
+	#seat_holder {
+	display: none;
+	}
+	
+	#class_select_list {
+	position: absolute;
+	top: 140px;
+	left: 33%;
+	width: 240px;
+	font-weight: 900;
+	font-family: monospace;
+	background-color: lightgray;
+	border: 6px solid aqua;
+	border-radius: 6px 6px 0px 0px;
+	font-size: 18px;
+	z-index: 48;
+	}
+	
+	.seat_select_list {
+	position: absolute;
+	font-weight: 900;
+	font-family: monospace;
+	font-size: 14px;
+	background-color: lightgray;
+	border: 4px solid aqua;
+	width: 240px;
+	display: none;
+	border-radius: 0px 0px 6px 6px;
+	top: 190px;
+	left: 33%;
+	z-index: 47;
+	}
+	
+	#display {
+	position: absolute;
+	top: 41%;
+	left: 5%;
+	height: 230px;
+	width: 90%;
+	border: 2px solid red;
+	background-color: lightgray;
+	color: black;
+	text-align: center;
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 18px;
+	}
+	
+	#legend_holder {
+		display: none;
+	}
+	
+}
+
+/*------------MEDIA-QUERRY-TABLET-------------------------------------------------*/
+@media screen and (max-width: 900px) and (min-width: 626px) {
+	
+	body {
+	background-image: url(../images/Airbus_A300B4-622R_seat_configuration_chart.svg.png);
+	background-repeat: repeat;
+	background-size: 200px;
+	}
+	
+	#seat_holder {
+	display: none;
+	}
+	
+	#class_select_list {
+	position: absolute;
+	top: 140px;
+	left: 33%;
+	width: 240px;
+	font-weight: 900;
+	font-family: monospace;
+	background-color: lightgray;
+	border: 6px solid aqua;
+	border-radius: 6px 6px 0px 0px;
+	font-size: 18px;
+	z-index: 48;
+	}
+	
+	.seat_select_list {
+	position: absolute;
+	font-weight: 900;
+	font-family: monospace;
+	font-size: 14px;
+	background-color: lightgray;
+	border: 4px solid aqua;
+	width: 240px;
+	display: none;
+	border-radius: 0px 0px 6px 6px;
+	top: 190px;
+	left: 33%;
+	z-index: 47;
+	}
+	
+	#display {
+	position: absolute;
+	top: 41%;
+	left: 5%;
+	height: 230px;
+	width: 90%;
+	border: 2px solid red;
+	background-color: lightgray;
+	color: black;
+	text-align: center;
+	padding-top: 20px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 18px;
+	}
+	
+	#legend_holder {
+		display: none;
+	}
+	
+}
+
+/*---------MEDIA-QUERRY-BIG-PHONE-------------------------------------------------*/
+@media screen and (max-width: 625px) and (min-width: 369px) {
+	
+	body {
+	background-image: url(../images/Airbus_A300B4-622R_seat_configuration_chart.svg.png);
+	background-repeat: repeat;
+	background-size: 200px;
+	}
+	
+	#legend_holder {
+	display: none;
+	}
+	
+	#seat_holder {
+	display: none;
+	}
+	
+	#class_select_list {
+	position: absolute;
+	top: 180px;
+	left: 33%;
+	width: 240px;
+	font-weight: 900;
+	font-family: monospace;
+	background-color: lightgray;
+	border: 6px solid aqua;
+	border-radius: 6px 6px 0px 0px;
+	font-size: 18px;
+	z-index: 48;
+	}
+	
+	.seat_select_list {
+	position: absolute;
+	font-weight: 900;
+	font-family: monospace;
+	font-size: 14px;
+	background-color: lightgray;
+	border: 4px solid aqua;
+	width: 240px;
+	display: none;
+	border-radius: 0px 0px 6px 6px;
+	top: 220px;
+	left: 33%;
+	z-index: 47;
+	}
+	
+	#display {
+	position: absolute;
+	top: 300px;
+	left: 5%;
+	height: 190px;
+	width: 90%;
+	border: 2px solid red;
+	background-color: lightgray;
+	color: black;
+	text-align: center;
+	padding-top: 10px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 16px;
+	}
+}
+
+/*-----MEDIA-QUERRY-AVERAGE-PHONE-------------------------------------------------*/
+@media screen and (max-width: 368px) and (min-width: 260px) {
+	
+	body {
+		background-image: url(../images/Airbus_A300B4-622R_seat_configuration_chart.svg.png);
+		background-size: cover;
+	}
+	
+	#seat_heading {
+	position: absolute;
+	top: -5px;
+	width: 92%;
+	height: 30px;
+	}
+	
+	#seat_holder {
+		display: none;
+	}
+	
+	.seat_select_list {
+		position: absolute;
+		font-weight: 900;
+		font-family: monospace;
+		font-size: 14px;
+		background-color: lightgray;
+		border: 4px solid aqua;
+		width: 240px;
+		display: none;
+		border-radius: 0px 0px 6px 6px;
+		top: 31%;
+		left: 6%;
+		z-index: 47;
+	}
+	
+	#class_select_list {
+		position: absolute;
+		top: 21%;
+		left: 6%;
+		width: 240px;
+		font-weight: 900;
+		font-family: monospace;
+		background-color: lightgray;
+		border: 6px solid aqua;
+		border-radius: 6px 6px 0px 0px;
+		font-size: 18px;
+		z-index: 48;
+	}
+	
+	#display {
+	position: absolute;
+	top: 41%;
+	left: 4%;
+	height: 160px;
+	width: 90%;
+	border: 2px solid red;
+	background-color: lightgray;
+	color: black;
+	text-align: center;
+	padding-top: 6px;
+	text-transform: uppercase;
+	font-family: sans-serif;
+	font-size: 12px;
+	}
+	
+	#legend_holder {
+	display: none;
+	}
+	
+	#seat_heading {
+	position: absolute;
+	top: -5px;
+	width: 85%;
+	height: 14%;
+	padding: 3%;
+	font-size: 20px;
+	}
+
+#home_button {
+	position: absolute;
+	left: 25%;
+	bottom: 7%;
+	height: 25px;
+	padding-top:4px;
+	z-index: 50;
+	}
+	
+#proceed_button {
+	display: block;
+	position: absolute;
+	padding-top:4px;
+	height: 25px;
+	bottom: 0px;
+	left: 17%;
+	z-index: 49;
+	}
+	
+}
+
+
+
+
+
+
+
+

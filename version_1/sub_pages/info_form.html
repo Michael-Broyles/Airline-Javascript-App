@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Personal Data Form</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/master.css">
+	<link rel="stylesheet" type="text/css" href="../css/info_form.css">
+	<script src="../js/info_form.js"></script>
+	<script src="../js/tools.js"></script>
+</head>
+<body id="body">
+	
+    <h1>Personal Data Form</h1>
+		
+	<marquee id="ticket_marquee" scrollamount="3">
+		<script>
+			marquee();
+		</script>
+	</marquee>
+	
+	<form id="personal_data_form">
+		
+		<fieldset id="contact_info_fieldset">
+			<legend>Contact Information</legend>
+			First Name*<input type="text" id="f_name_field" class="form_fields" onkeyup="do_right(this)"><br/>
+			Last Name*<input type="text" id="l_name_field" class="form_fields" onkeyup="do_right(this)"><br/>
+			Email*<input type="email" id="email_field" class="form_fields" onkeyup="do_right(this)"><br/>
+			Telephone*<input type="tel" id="phone_field" class="form_fields" onkeyup="do_right(this)"><br/>
+		</fieldset>
+		
+		<fieldset id="user_address_fieldset">
+			<legend>Address</legend>
+			Street*<input type="text" id="street_field" class="form_fields"><br/>
+			City*<input type="text" id="city_field" class="form_fields" onkeyup="do_right(this)"><br/>
+			State*<select id="select_state_list" onchange="pop_states()">
+					<option value=""></option>
+					<option value="alabama">Alabama</option>
+					<option value="florida">Florida</option>
+					<option value="georgia">Georgia</option>
+					<option value="tenessee">Tennessee</option>
+					<option value="washington">Washington</option>
+				</select><br/>
+			Zipcode*<input type="text" id="zipcode_field" class="form_fields" onkeyup="do_right(this)"><br/>
+		</fieldset>
+		
+		<fieldset id="payment_type_fieldset">
+			<legend>Payment Type</legend>
+			<div id="radio_holder">
+				<div id="ec"><input type="radio" name="payment" id="check" value="check" onclick="payment_type()">e-check*</div>
+				<div id="cc"><input type="radio" name="payment" id="card" value="credit_card" onclick="payment_type()">Credit Card*</div>
+			</div>
+		</fieldset>
+		
+		<fieldset id="echeck_info_fieldset">
+			<legend>e-check</legend>
+			Bank*<input type="text" id="bank_name_field" class="form_fields" onkeyup=""><br/>
+			Routing Number*<input type="text" id="routing_number_field" class="form_fields" onkeyup="do_right(this)"><br/>
+			Account Number*<input type="text" id="account_number_field" class="form_fields" onkeyup="do_right(this)"><br/>
+		</fieldset>
+		
+		<fieldset id="credit_card_info_fieldset">
+			<legend>Credit Card</legend>
+			Card Type*<select id="select_cc_list" onchange="">
+					<option value=""></option>
+					<option value="visa">Visa</option>
+					<option value="master_card">Master Card</option>
+					<option value="american_express">American Express</option>
+				</select><br/>
+			Card Number*<input type="text" id="card_number_field" class="form_fields" onkeyup="do_right(this)"><br/>
+			Expiration Date*<input type="month" id="expiration_date_field" class="form_fields"><br/>
+		</fieldset>
+			<p>All fields are required*</p>
+		
+			<input type="button" id="submit_button" class="buttons" value="submit" onclick="check_data()">
+			<input type="button" id="reset_button" class="buttons" value="reset" onclick="buttons.back_to_info()">
+		
+	</form>
+		
+	<input type="button" id="back_home" class="buttons" value="Back Home" onclick="buttons.back_home()">
+</body>
+</html>

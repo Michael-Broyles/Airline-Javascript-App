@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Continental Airlines - Check Out e-ticket</title>
+    <meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="../css/master.css">
+	<link rel="stylesheet" type="text/css" href="../css/check_out.css">
+	<script src="../js/check_out.js"></script>
+	<script src="../js/tools.js"></script>
+</head>
+<body>
+	
+    <h1 id="ck_out_heading">Check Out</h1>
+	
+	<nav id="nav_bar">
+		<input type="button" id="back_home" class="buttons" value="Back To Home" onclick="buttons.back_home()">
+		<input type="button" id="back_home" class="buttons" value="Seat Selector" onclick="buttons.back_seat()">
+		<input type="button" id="back_button" class="buttons" value="Back To Info Page" onclick="buttons.back_to_info()">
+		<input type="button" id="additional" class="buttons" value="Additional Ticket" onclick="buttons.additional_ticket()">
+	</nav>
+	
+	<p id="ticket_preview"></p>
+		
+	<input type="button" id="print_button" class="buttons" value="Print Ticket" onclick="buttons.print_ticket()">
+		
+</body>
+</html>
